@@ -1,0 +1,16 @@
+.hero{
+    width: 100%;
+    height: calc(100vh-80px);
+
+}
+.larger-heading{
+    font-size: 5rem;
+}
+@media screen and (max-width:768px) {
+    .image{
+        width: 100%;
+    }
+    .larger-heading{
+        font-size: 2rem;
+    }
+}
